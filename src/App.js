@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import AOS from "aos";
 
-import "./assets/css/main.css";
+import "./assets/scss/main.css";
 import "aos/dist/aos.css";
 
 AOS.init({

@@ -22,15 +22,17 @@ export default class Portfolio extends Component {
       {
         id: 4,
         image: project4,
-        title: "Microverse Chat",
+        title: "RAWG - Gaming Info Website",
         description:
-          "This project provides a social media website created with Ruby on Rails. We tried to implement a UX based on Facebook",
-        demoLink: "https://tranquil-chamber-60677.herokuapp.com/",
-        sourceCodeLink: "https://github.com/barackm/ULK-Forum",
+          "Implemented a Pixel Perfect and Responsive clone of RAWG's Videogames informational website.",
+        demoLink: "https://rawg-clone.netlify.app/",
+        sourceCodeLink: "https://github.com/TheAwsomist/R-A-W-G",
         technologies: [
-          { id: 1, name: "Rails" },
-          { id: 2, name: "Stimulus" },
-          { id: 3, name: "SCSS" },
+          { id: 1, name: "JavaScript ES6" },
+          { id: 2, name: "ReactJS" },
+          { id: 3, name: "Redux" },
+          { id: 4, name: "SASS/CSS" },
+          { id: 5, name: "Axios" },
         ],
         category_id: 1,
         animation: "zoom-in-up",
@@ -38,15 +40,16 @@ export default class Portfolio extends Component {
       {
         id: 2,
         image: project1,
-        title: "FMB Studio",
+        title: "VenttOut",
         description:
-          "FMB studio is a website for photographs, Where they can post the best of their work.",
-        demoLink: "https://fmbstudio.netlify.app/",
-        sourceCodeLink: "https://github.com/barackm/fmb-studio",
+          "The following website is a work in progress front-end of a website for a Startup that focuses on providing an anonymous place for university students to rant and vent about their student life and its problems.",
+        demoLink: "https://venttout.netlify.app/",
+        sourceCodeLink: "https://github.com/TheAwsomist/VenttOut",
         technologies: [
-          { id: 1, name: "Javascript" },
-          { id: 2, name: "ReactJs" },
-          { id: 3, name: "SCSS" },
+          { id: 1, name: "JavaScript ES6" },
+          { id: 2, name: "ReactJS" },
+          { id: 3, name: "Redux" },
+          { id: 4, name: "SASS/CSS" }
         ],
         category_id: 1,
         animation: "zoom-in-up",
@@ -54,80 +57,90 @@ export default class Portfolio extends Component {
       {
         id: 5,
         image: project7,
-        title: "My Doctor",
+        title: "NFT Store",
         description:
-          "My Doctor is a mobile app Designed for Hospitals, helping petients to be assisted by thier doctors online.",
+          "Developed a Front End Landing Page of an NFT Store that fetched live data of latest NFT's and their prices from OpenSea's API",
         demoLink: "https://github.com/barackm/Doctor-App",
         sourceCodeLink: "https://github.com/barackm/Doctor-App",
-        technologies: [{ id: 1, name: "React Native" }],
+        technologies: [
+          { id: 1, name: "JavaScript ES6" },
+          { id: 2, name: "ReactJS" },
+          { id: 3, name: "Redux" },
+          { id: 4, name: "SASS/CSS" },
+          { id: 5, name: "Axios" },
+          { id: 6, name: "OpenSea API" }
+        ],
         category_id: 2,
         animation: "fade-down-left",
       },
       {
         id: 6,
         image: project6,
-        title: "Book Reviewer",
+        title: "Star Finder",
         description:
-          "This project is a Ruby on Rails capstone project based on a redesign of Twitter. It is a place where people can share opinions or reviews about books with people who follow them. Reviews can be commented on and voted on so that other users may be confident about posted reviews.",
-        demoLink: "https://b-book-reviewer.herokuapp.com",
-        sourceCodeLink: "https://github.com/barackm/book-opinions",
+          "This project was developed on ReactJS to find music artists and their upcoming concerts with complete interaction with an external API using Axios and data storage using Context API",
+        demoLink: "http://star-finder.netlify.app/",
+        sourceCodeLink: "https://github.com/TheAwsomist/MOTIVES-Assignment",
         technologies: [
-          { id: 1, name: "Rails" },
-          { id: 2, name: "Stimulus" },
-          { id: 3, name: "SCSS" },
+          { id: 1, name: "JavaScript ES6" },
+          { id: 2, name: "ReactJS" },
+          { id: 3, name: "Context API" },
+          { id: 4, name: "SASS/CSS" },
+          { id: 5, name: "Axios" }
         ],
         category_id: 3,
         animation: "flip-left",
-      },
-      {
-        id: 1,
-        image: project2,
-        title: "ULK Forum",
-        description:
-          "Forum where students should post their problems about projects or assignments to get idea from other students",
-        demoLink: "https://ulk-forum.netlify.app/",
-        sourceCodeLink: "https://github.com/barackm/ULK-Forum",
-        technologies: [
-          { id: 1, name: "Javascript" },
-          { id: 2, name: "ReactJs" },
-          { id: 3, name: "SCSS" },
-        ],
-        category_id: 1,
-        animation: "zoom-in-up",
-      },
+      }
+      // {
+      //   id: 1,
+      //   image: project2,
+      //   title: "ULK Forum",
+      //   description:
+      //     "Forum where students should post their problems about projects or assignments to get idea from other students",
+      //   demoLink: "https://ulk-forum.netlify.app/",
+      //   sourceCodeLink: "https://github.com/barackm/ULK-Forum",
+      //   technologies: [
+      //     { id: 1, name: "Javascript" },
+      //     { id: 2, name: "ReactJs" },
+      //     { id: 3, name: "SCSS" },
+      //   ],
+      //   category_id: 1,
+      //   animation: "zoom-in-up",
+      // },
 
-      {
-        id: 3,
-        image: project3,
-        title: "Raven Bot ",
-        description:
-          "Raven Bot is a Ruby-based Bot used in restaurants, helping clients to place an order inside restaurents.          ",
-        demoLink: "https://github.com/barackm/Niky-Restaurent-Bot",
-        sourceCodeLink: "https://github.com/barackm/Niky-Restaurent-Bot",
-        technologies: [{ id: 1, name: "Ruby" }],
-        category_id: 3,
-        animation: "flip-left",
-      },
+      // {
+      //   id: 3,
+      //   image: project3,
+      //   title: "Raven Bot ",
+      //   description:
+      //     "Raven Bot is a Ruby-based Bot used in restaurants, helping clients to place an order inside restaurents.          ",
+      //   demoLink: "https://github.com/barackm/Niky-Restaurent-Bot",
+      //   sourceCodeLink: "https://github.com/barackm/Niky-Restaurent-Bot",
+      //   technologies: [{ id: 1, name: "Ruby" }],
+      //   category_id: 3,
+      //   animation: "flip-left",
+      // },
     ];
 
-    const webProjects = projects.filter((project) => project.category_id === 1);
-    const mobileProjects = projects.filter(
-      (project) => project.category_id === 2
-    );
-    const backendProjects = projects.filter(
-      (project) => project.category_id === 3
-    );
+    // const webProjects = projects.filter((project) => project.category_id === 1);
+    // const mobileProjects = projects.filter(
+    //   (project) => project.category_id === 2
+    // );
+    // const backendProjects = projects.filter(
+    //   (project) => project.category_id === 3
+    // );
 
     const renderProjects = () => {
-      if (shownTab === "all") {
-        return projects;
-      } else if (shownTab === "mobile") {
-        return mobileProjects;
-      } else if (shownTab === "web") {
-        return webProjects;
-      } else {
-        return backendProjects;
-      }
+      return projects;
+      // if (shownTab === "all") {
+      //   return projects;
+      // } else if (shownTab === "mobile") {
+      //   return mobileProjects;
+      // } else if (shownTab === "web") {
+      //   return webProjects;
+      // } else {
+      //   return backendProjects;
+      // }
     };
     return (
       <div className="portfolio-main-container" id="portfolio" name="portfolio">
@@ -140,7 +153,7 @@ export default class Portfolio extends Component {
             <div className="portfolio-works-wrapper">
               <div className="links-wrapper">
                 <h3 data-aos="fade-up">Some of my best works</h3>
-                <ul>
+                {/* <ul>
                   <li>
                     <div
                       onClick={() => this.handleHowTab("all")}
@@ -164,7 +177,7 @@ export default class Portfolio extends Component {
                       Backend
                     </div>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               <div className="projects-grid-wrapper">
                 {renderProjects().map((project) => (

@@ -17,15 +17,15 @@ import SubmitBtn from './common/SubmitBtn';
 import Texterea from './common/Texterea';
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm('xyylpkll');
+  const [state, handleSubmit] = useForm('mwkzkgle');
 
   const Message = () => (
     <div className="contact-page-main-container" id="contact" name="contact">
       <div className="contact-page-wrapper">
         <div className="contact-details-wrapper">
           <div className="home-hello-wrapper ">
-            <div className="hello-line"></div>
-            <h3 className="hero-hello">Contact me</h3>
+            {/* <div className="hello-line" style={{marginBottom:"2vw"}}></div> */}
+            <h3 className="hero-hello" style={{marginBottom:"2vw"}}>Contact me 😄</h3>
           </div>
           <h2 className="slogan">Let's do it together</h2>
 
@@ -45,7 +45,7 @@ export default function Contact() {
                       <FaMapMarkerAlt />
                     </IconContext.Provider>
                   </div>
-                  Kigali - Rwanda, KK 8 Av 190
+                  Pakistan
                 </a>
               </li>
               <li>
@@ -57,10 +57,10 @@ export default function Contact() {
                       <BsEnvelope />
                     </IconContext.Provider>
                   </div>
-                  barackmukelenga100@gmail.com
+                  abdullahkhurram116@gmail.com
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#f">
                   <div className="address-icon-wrapper">
                     <IconContext.Provider
@@ -71,12 +71,12 @@ export default function Contact() {
                   </div>
                   +250 (0) 780-083-122
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="contact-links-wrapper">
             <ul>
-              <li>
+              {/* <li>
                 <a
                   href="https://www.facebook.com/freddy.fumba.7/"
                   target="blank"
@@ -87,8 +87,8 @@ export default function Contact() {
                     <FiFacebook />
                   </IconContext.Provider>
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
                   href="https://www.instagram.com/barackmukelenga/"
                   target="blank"
@@ -99,9 +99,9 @@ export default function Contact() {
                     <FiInstagram />
                   </IconContext.Provider>
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="https://github.com/barackm" target="blank">
+                <a href="https://github.com/TheAwsomist" target="blank">
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
                   >
@@ -109,7 +109,7 @@ export default function Contact() {
                   </IconContext.Provider>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://twitter.com/BarackMukelenga" target="blank">
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
@@ -117,10 +117,10 @@ export default function Contact() {
                     <FiTwitter />
                   </IconContext.Provider>
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
-                  href="https://www.linkedin.com/in/baraka-mukelenga/"
+                  href="https://www.linkedin.com/in/abdullah-khurram-827849212/"
                   target="blank"
                 >
                   <IconContext.Provider
@@ -161,8 +161,8 @@ export default function Contact() {
       <div className="contact-page-wrapper">
         <div className="contact-details-wrapper">
           <div className="home-hello-wrapper" data-aos="fade-down">
-            <div className="hello-line"></div>
-            <h3 className="hero-hello">Contact me</h3>
+            {/* <div className="hello-line"></div> */}
+            <h3 className="hero-hello" style={{marginBottom:"2vw"}}>Contact me 😄</h3>
           </div>
           <h2 className="slogan" data-aos="fade-down">
             Let's do it together
@@ -184,7 +184,7 @@ export default function Contact() {
                       <FaMapMarkerAlt />
                     </IconContext.Provider>
                   </div>
-                  Kigali - Rwanda
+                  Pakistan
                 </a>
               </li>
               <li data-aos="fade-down-right">
@@ -196,10 +196,10 @@ export default function Contact() {
                       <BsEnvelope />
                     </IconContext.Provider>
                   </div>
-                  barackmukelenga100@gmail.com
+                  abdullahkhurram116@gmail.com
                 </a>
               </li>
-              <li data-aos="fade-down-right">
+              {/* <li data-aos="fade-down-right">
                 <a href="#f">
                   <div className="address-icon-wrapper">
                     <IconContext.Provider
@@ -210,12 +210,12 @@ export default function Contact() {
                   </div>
                   +250 (0) 780-083-122
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="contact-links-wrapper">
             <ul>
-              <li data-aos="fade-right">
+              {/* <li data-aos="fade-right">
                 <a
                   href="https://www.facebook.com/freddy.fumba.7/"
                   target="blank"
@@ -238,9 +238,9 @@ export default function Contact() {
                     <FiInstagram />
                   </IconContext.Provider>
                 </a>
-              </li>
+              </li> */}
               <li data-aos="fade-right">
-                <a href="https://github.com/barackm" target="blank">
+                <a href="https://github.com/TheAwsomist" target="blank">
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
                   >
@@ -248,7 +248,7 @@ export default function Contact() {
                   </IconContext.Provider>
                 </a>
               </li>
-              <li data-aos="fade-right">
+              {/* <li data-aos="fade-right">
                 <a href="https://twitter.com/BarackMukelenga" target="blank">
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
@@ -256,10 +256,10 @@ export default function Contact() {
                     <FiTwitter />
                   </IconContext.Provider>
                 </a>
-              </li>
+              </li> */}
               <li data-aos="fade-right">
                 <a
-                  href="https://www.linkedin.com/in/baraka-mukelenga/"
+                  href="https://www.linkedin.com/in/abdullah-khurram-827849212/"
                   target="blank"
                 >
                   <IconContext.Provider

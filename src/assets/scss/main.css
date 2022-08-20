@@ -48,7 +48,8 @@ ul {
 img {
   -o-object-fit: cover !important;
      object-fit: cover !important;
-     object-position: top;
+  -o-object-position: top !important;
+     object-position: top !important;
 }
 
 h1,
@@ -915,6 +916,14 @@ li:hover ~ .cursor1 {
           justify-content: flex-start;
 }
 
+@media (max-width: 767px) {
+  .home-page-main-container .home-content-wrapper .image-content-wrapper {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
 .home-page-main-container .home-content-wrapper .image-content-wrapper .image-wrapper {
   background-color: rgba(131, 144, 175, 0.2);
   border-radius: 0.6rem;
@@ -1249,6 +1258,10 @@ li:hover ~ .cursor1 {
   }
 }
 
+.better-design {
+  text-align: center;
+}
+
 .what-i-do-main-container {
   border-top: 1px solid rgba(128, 141, 173, 0.2);
   padding-top: 3rem;
@@ -1259,6 +1272,9 @@ li:hover ~ .cursor1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: auto;
   padding-bottom: 3rem;
   width: 100%;
@@ -1415,7 +1431,6 @@ li:hover ~ .cursor1 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-            justify-content: center;
   }
   .what-i-do-main-container .left-area-coontainer {
     -webkit-box-ordinal-group: 2;
@@ -2334,10 +2349,6 @@ li:hover ~ .cursor1 {
   color: #f5f3f3;
   margin: 0;
   font-size: 1.5rem;
-}
-
-.I-Do-div{
-  text-align: center;
 }
 
 .about-work {

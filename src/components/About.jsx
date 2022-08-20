@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { IconContext } from 'react-icons';
 import { BiDownload } from 'react-icons/bi';
 import { BsCheckCircle } from 'react-icons/bs';
-import project from '../assets/images/project1.png';
-import resume from '../assets/Barack Mukelenga Resume.pdf';
+import project from '../assets/images/projects/project11.png';
+import resume from '../assets/Abdullah Khurram resume.pdf';
 import { Link } from 'react-scroll';
 
 export default class About extends Component {
@@ -12,8 +12,8 @@ export default class About extends Component {
       <div className="about-page-main-container" id="about" name="about">
         <div className="right-area-main-container">
           <div className="home-hello-wrapper " data-aos="fade-up">
-            <div className="hello-line"></div>
-            <h3 className="hero-hello">About me</h3>
+            <div className="hello-line" style={{marginBottom:"2vw"}}></div>
+            <h3 className="hero-hello" style={{marginBottom:"2vw"}}>About me</h3>
           </div>
           <h2 className="slogan" data-aos="fade-up">
             Hi, Here I am
@@ -21,9 +21,9 @@ export default class About extends Component {
           </h2>
 
           <p className="about-work" data-aos="fade-up">
-            I'm Baraka Mukelenga a software developer specialized in different
-            technologies ,Building web applications, Mobile apps and beautiful
-            websites for companies. Love digging into hard problems, learning
+            I'm Abdullah Khurram! <br /> A Computer Scientist specialized in different
+            technologies ,Building user friendly and responsive front-ends of web applications and beautiful
+            websites for companies. I love digging into hard problems, learning
             new languages and technologies.
           </p>
           <h3 className="languages-title" data-aos="fade-up">
@@ -36,7 +36,7 @@ export default class About extends Component {
                   <BsCheckCircle />
                 </IconContext.Provider>
               </div>
-              <h3>Ruby</h3>
+              <h3>HTML5</h3>
             </div>
             <div className="work-about-item-wrapper" data-aos="fade-up-left">
               <div className="check-icon">
@@ -52,7 +52,7 @@ export default class About extends Component {
                   <BsCheckCircle />
                 </IconContext.Provider>
               </div>
-              <h3>Ruby on Rails</h3>
+              <h3>Express</h3>
             </div>
             <div className="work-about-item-wrapper" data-aos="fade-up-left">
               <div className="check-icon">
@@ -77,6 +77,14 @@ export default class About extends Component {
                 </IconContext.Provider>
               </div>
               <h3>React Native</h3>
+            </div>
+            <div className="work-about-item-wrapper" data-aos="fade-up-left">
+              <div className="check-icon">
+                <IconContext.Provider value={{ className: 'check-list-icon' }}>
+                  <BsCheckCircle />
+                </IconContext.Provider>
+              </div>
+              <h3>SASS/CSS</h3>
             </div>
           </div>
           <div className="btn-wrapper about" data-aos="fade-up">

@@ -167,13 +167,11 @@ class Header extends Component {
           </div>
           <div className="contact-details">
             <div className="contact-text">
-              <p>barackmukelenga100@gmail.com</p> <br />
-              <p>+(250) 780-083-122</p> <br />
-              <span>Kigali Rwanda, KK 8 Av 190</span>
+              <p>abdullahkhurram116@gmail.com</p> <br />
             </div>
             <div className="contact-details-icon-wrapper">
               <div className="contact-icon-item">
-                <a
+                {/* <a
                   href="https://www.facebook.com/freddy.fumba.7/"
                   target="blank"
                 >
@@ -182,15 +180,15 @@ class Header extends Component {
                   >
                     <FaFacebookF />
                   </IconContext.Provider>
-                </a>
-                <a href="https://twitter.com/BarackMukelenga" target="blank">
+                </a> */}
+                {/* <a href="https://twitter.com/BarackMukelenga" target="blank">
                   <IconContext.Provider
                     value={{ className: "header-links-icon" }}
                   >
                     <FaTwitter />
                   </IconContext.Provider>
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   href="https://www.instagram.com/barackmukelenga/"
                   target="blank"
                 >
@@ -199,9 +197,9 @@ class Header extends Component {
                   >
                     <FaInstagram />
                   </IconContext.Provider>
-                </a>
+                </a> */}
                 <a
-                  href="https://www.linkedin.com/in/baraka-mukelenga/"
+                  href="https://www.linkedin.com/in/abdullah-khurram-827849212/"
                   target="blank"
                 >
                   <IconContext.Provider
@@ -210,7 +208,7 @@ class Header extends Component {
                     <AiFillLinkedin />
                   </IconContext.Provider>
                 </a>
-                <a href="https://github.com/barackm" target="blank">
+                <a href="https://github.com/TheAwsomist" target="blank">
                   <IconContext.Provider
                     value={{ className: "header-links-icon" }}
                   >

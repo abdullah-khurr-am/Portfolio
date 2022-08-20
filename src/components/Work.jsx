@@ -5,7 +5,7 @@ export default class Work extends Component {
   render() {
     return (
       <div className="what-i-do-main-container" id="work" name="work">
-        <div className="left-area-coontainer" data-aos="fade-right">
+        {/* <div className="left-area-coontainer" data-aos="fade-right">
           <div className="mobile-website-wrapper">
             <div className="work-item-wrapper">
               <div className="icon-wrapper">
@@ -86,20 +86,20 @@ export default class Work extends Component {
               <div className="text-wrapper">Backend Develpment</div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="right-area-main-container">
-          <div className="home-hello-wrapper" data-aos="fade-up">
+          <div className="home-hello-wrapper" style={{justifyContent:"center",marginBottom:"2vw"}} data-aos="fade-up">
             <div className="hello-line"></div>
-            <h3 className="hero-hello">What I do</h3>
+            <h3 className="hero-hello I-Do-div">What I do</h3>
           </div>
-          <h2 className="slogan" data-aos="fade-up">
+          <h2 className="slogan I-Do-div better-design" data-aos="fade-up" style={{marginBottom:"2vw"}}>
             Better Design,
             <br /> Better experiences
           </h2>
 
           <p className="about-work" data-aos="fade-up">
-            I'm Building scalable web applications, Mobile apps and beautiful
-            websites for companies.
+            I'm Building scalable, pixel perfect and efficient Web Applications and 
+            Websites for Companies.
           </p>
         </div>
       </div>

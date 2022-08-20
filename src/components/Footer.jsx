@@ -46,7 +46,7 @@ export default class Footer extends Component {
 
             <div className="contact-links-wrapper">
               <ul>
-                <li>
+                {/* <li>
                   <a
                     href="https://www.facebook.com/freddy.fumba.7/"
                     target="blank"
@@ -69,9 +69,9 @@ export default class Footer extends Component {
                       <FiInstagram />
                     </IconContext.Provider>
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="https://github.com/barackm" target="blank">
+                  <a href="https://github.com/TheAwsomist" target="blank">
                     <IconContext.Provider
                       value={{ className: "contact-link-icon" }}
                     >
@@ -79,7 +79,7 @@ export default class Footer extends Component {
                     </IconContext.Provider>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="https://twitter.com/BarackMukelenga" target="blank">
                     <IconContext.Provider
                       value={{ className: "contact-link-icon" }}
@@ -87,10 +87,10 @@ export default class Footer extends Component {
                       <FiTwitter />
                     </IconContext.Provider>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/baraka-mukelenga/"
+                    href="https://www.linkedin.com/in/abdullah-khurram-827849212/"
                     target="blank"
                   >
                     <IconContext.Provider

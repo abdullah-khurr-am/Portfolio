@@ -14,7 +14,7 @@ import {
 import { Link } from 'react-scroll';
 
 import barack from '../assets/images/project2.png';
-import resume from '../assets/Barack Mukelenga Resume.pdf';
+import resume from '../assets/Abdullah Khurram resume.pdf';
 
 export default class Home extends Component {
   render() {
@@ -23,7 +23,7 @@ export default class Home extends Component {
         {/* <div className="background-image"></div> */}
         <div className="aside-links-wrapper" data-aos="fade-up-left">
           <ul>
-            <li>
+            {/* <li>
               <a href="https://www.facebook.com/freddy.fumba.7/" target="blank">
                 <IconContext.Provider
                   value={{ className: 'sidebar-link-icon' }}
@@ -43,9 +43,9 @@ export default class Home extends Component {
                   <FiInstagram />
                 </IconContext.Provider>
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href="https://github.com/barackm" target="blank">
+              <a href="https://github.com/TheAwsomist" target="blank">
                 <IconContext.Provider
                   value={{ className: 'sidebar-link-icon' }}
                 >
@@ -53,7 +53,7 @@ export default class Home extends Component {
                 </IconContext.Provider>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="https://twitter.com/BarackMukelenga" target="blank">
                 <IconContext.Provider
                   value={{ className: 'sidebar-link-icon' }}
@@ -61,10 +61,10 @@ export default class Home extends Component {
                   <FiTwitter />
                 </IconContext.Provider>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://www.linkedin.com/in/baraka-mukelenga/"
+                href="https://www.linkedin.com/in/abdullah-khurram-827849212/"
                 target="blank"
               >
                 <IconContext.Provider
@@ -79,15 +79,15 @@ export default class Home extends Component {
         <div className="home-content-wrapper">
           <div className="home-text-content">
             <div className="home-hello-wrapper" data-aos="fade-up-right">
-              <div className="hello-line"></div>
-              <h3 className="hero-hello">Hi there,</h3>
+              {/* <div className="hello-line"></div> */}
+              <h3 className="hero-hello">Hi there,👋</h3>
             </div>
             <div className="hero-text-wrapper" data-aos="fade-up-right">
-              I am Baraka Mukelenga
+              I am <span style={{color:"#a22f84"}}>Abdullah Khurram</span>
             </div>
             <div className="profession-area">
               <h3 className="hero-profession" data-aos="fade-up-right">
-                Full-stack web developper
+                Front End Web Developer (Soon To Be A Full Stack)
               </h3>
             </div>
             <div className="btn-wrapper" data-aos="fade-up">
@@ -582,7 +582,7 @@ export default class Home extends Component {
                         <AiOutlineCheck />
                       </IconContext.Provider>
                     </h2>{' '}
-                    <span>3+ Years</span>
+                    <span>1 Year</span>
                   </div>
                 </div>
               </div>
