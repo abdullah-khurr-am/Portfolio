@@ -33,6 +33,11 @@ export default class Footer extends Component {
                 </Link>
               </li>
               <li data-aos="fade-right">
+                <Link to="experience" spy={true} smooth={true} duration={500}>
+                  Experience
+                </Link>
+              </li>
+              <li data-aos="fade-right">
                 <Link to="portfolio" spy={true} smooth={true} duration={500}>
                   Portfolio
                 </Link>
@@ -105,14 +110,13 @@ export default class Footer extends Component {
           </div>
           <div className="footer-down">
             <p>
-              &copy; {new Date().getFullYear()}{" "}
+              Made With 💖 By 
               <a
                 href="https://www.linkedin.com/in/baraka-mukelenga/"
                 className="name"
               >
-                Baraka Mukelenga
+                &nbsp;Abdullah Khurram
               </a>
-              , All right reserved
             </p>
           </div>
         </div>

@@ -17,8 +17,9 @@ class Header extends Component {
       { id: 1, name: "Home", to: "home", class: "" },
       { id: 2, name: "About", to: "about", class: "" },
       { id: 3, name: "Work", to: "work", class: "" },
-      { id: 4, name: "Portfolio", to: "portfolio", class: "" },
-      { id: 5, name: "contact", to: "contact", class: "" },
+      { id: 4, name: "Experience", to: "experience", class: "" },
+      { id: 5, name: "Portfolio", to: "portfolio", class: "" },
+      { id: 6, name: "contact", to: "contact", class: "" },
     ],
   };
   componentDidMount() {

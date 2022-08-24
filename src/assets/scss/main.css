@@ -2434,6 +2434,23 @@ li:hover ~ .cursor1 {
   font-size: 1rem;
 }
 
+.project-item-wrapper .experience-card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.project-item-wrapper .experience-card-header h4 {
+  margin-top: 1vw;
+  font-style: italic;
+  color: aliceblue;
+}
+
 .project-item-wrapper .project-details {
   color: #808dad;
 }
