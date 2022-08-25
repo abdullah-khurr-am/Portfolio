@@ -68,18 +68,19 @@
 
     .logo-wrapper {
       width: 50px;
-
-      path {
-        fill: $white;
-        transition-delay: 0.7s;
-      }
-
-      path {
-        &:nth-child(1) {
-          fill: $dark;
-        }
-      }
     }
+  }
+}
+
+.open{
+  .letter {
+    fill: $white !important;
+    transition-delay: 0.7s;
+    stroke: white;
+  }
+
+    .circle {
+      fill: $dark !important;
   }
 }
 

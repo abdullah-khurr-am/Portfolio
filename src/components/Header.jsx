@@ -1,6 +1,6 @@
 import React, { Component, createRef } from "react";
 import { IconContext } from "react-icons";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import {ReactComponent as ReactLogo} from '../assets/images/AKLogo.svg';
 import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
 // import MagnetMouse from "./utils/magnentMouse";
 import { Link } from "react-scroll";
@@ -71,7 +71,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <nav className="header-main-container" ref={this.menu}>
+        <nav className="header-main-container">
           <div className="logo-container">
             <Link
               to="home"
@@ -82,7 +82,9 @@ class Header extends Component {
               className="logo-area"
               onClick={this.closeMenu}
             >
-              <svg
+
+              <ReactLogo style={{color:"black"}} ref={this.menu}/>
+              {/* <svg
                 className="logo-wrapper"
                 viewBox="0 0 157 149"
                 fill="none"
@@ -124,7 +126,7 @@ class Header extends Component {
                     <rect width="157" height="149" fill="black" />
                   </clipPath>
                 </defs>
-              </svg>
+              </svg> */}
             </Link>
           </div>
           <div className="hamburger-container">

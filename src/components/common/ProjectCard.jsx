@@ -40,7 +40,7 @@ export default class ProjectCard extends Component {
             ))}
           </div>
           <div className="project-images-preview">
-            <img src={project.image} alt="" />
+            <img loading="lazy" src={project.image} alt="" />
           </div>
         </div>
       </>
