@@ -294,14 +294,15 @@ tspan {
   width: 50px;
 }
 
-.header-main-container.open .logo-wrapper path {
-  fill: #f5f3f3;
+.open .letter {
+  fill: #f5f3f3 !important;
   -webkit-transition-delay: 0.7s;
           transition-delay: 0.7s;
+  stroke: white;
 }
 
-.header-main-container.open .logo-wrapper path:nth-child(1) {
-  fill: #000;
+.open .circle {
+  fill: #000 !important;
 }
 
 svg {
@@ -2420,6 +2421,52 @@ li:hover ~ .cursor1 {
           transform: translateY(0.2rem);
 }
 
+#courses-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#courses-wrapper .course-image {
+  width: 8vw;
+  height: 6.5vw;
+  border-radius: 50%;
+  background-color: aliceblue;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+@media (max-width: 1100px) {
+  #courses-wrapper .course-image {
+    width: 12vw;
+    height: 10vw;
+  }
+}
+
+@media (max-width: 560px) {
+  #courses-wrapper .course-image {
+    width: 26vw;
+    height: 19vw;
+  }
+}
+
+#courses-wrapper .course-image img {
+  width: 100%;
+  height: 100%;
+}
+
+#courses-grid {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 1100px) {
+  #courses-grid {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .project-item-wrapper {
   background-color: rgba(128, 141, 173, 0.1);
   border-radius: 0.7rem;
@@ -2432,6 +2479,10 @@ li:hover ~ .cursor1 {
   font-weight: bold;
   color: #ed4a4a;
   font-size: 1rem;
+}
+
+.project-item-wrapper .institute {
+  margin-top: 1rem;
 }
 
 .project-item-wrapper .experience-card-header {
