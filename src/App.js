@@ -11,6 +11,7 @@ import AOS from "aos";
 import "./assets/scss/main.css";
 import "aos/dist/aos.css";
 import Experience from "./components/Experience";
+import Courses from "./components/Courses";
 
 AOS.init({
   delay: 100,
@@ -26,6 +27,7 @@ const App = () => {
         <Portfolio />
         <About />
         <Experience/>
+        <Courses/>
         <Contact />
         <Footer />
       </main>
