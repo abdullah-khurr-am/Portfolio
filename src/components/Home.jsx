@@ -5,15 +5,12 @@ import { FaLaptopCode, FaPlay } from 'react-icons/fa';
 import { AiOutlineCheck } from 'react-icons/ai';
 
 import {
-  FiFacebook,
-  FiInstagram,
-  FiTwitter,
   FiGithub,
   FiLinkedin,
 } from 'react-icons/fi';
 import { Link } from 'react-scroll';
 
-import barack from '../assets/images/project2.png';
+// import barack from '../assets/images/project2.png';
 import resume from '../assets/Abdullah Khurram resume.pdf';
 
 export default class Home extends Component {
@@ -108,7 +105,7 @@ export default class Home extends Component {
               </a>
             </div>
           </div>
-          <div className="image-content-wrapper" data-aos="zoom-in">
+          {/* <div className="image-content-wrapper" data-aos="zoom-in">
             <div className="image-wrapper">
               <img src={barack} alt="homeImage" className="home-image" />
               <svg
@@ -587,7 +584,7 @@ export default class Home extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

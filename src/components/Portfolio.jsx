@@ -60,8 +60,8 @@ export default class Portfolio extends Component {
         title: "NFT Store",
         description:
           "Developed a Front End Landing Page of an NFT Store that fetched live data of latest NFT's and their prices from OpenSea's API",
-        demoLink: "https://github.com/barackm/Doctor-App",
-        sourceCodeLink: "https://github.com/barackm/Doctor-App",
+        demoLink: "https://nft-shop.netlify.app/",
+        sourceCodeLink: "https://github.com/abdullah-khurr-am/NFT-Landing-Page",
         technologies: [
           { id: 1, name: "JavaScript ES6" },
           { id: 2, name: "ReactJS" },
