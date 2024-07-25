@@ -2,24 +2,12 @@
 
 > This is my portfolio, you can find in here all my best recent works. The website was designed in ReactJS.
 
-![screenshot](./screenshot.png)
-
 This website was designed with the tools below:
 
 ## Built With
 
 - React
 - SASS
-
-## Live Demo
-
-[Visit the website](https://barackm.me/)
-
-## Getting Started
-
-**If you want to know more about how this website was designed, You can run the folowing commands in your terminal if you have git and nodejs already install on your computer**
-
-`git clone https://github.com/barackm/personal-portfolio`
 
 ## Available Scripts
 
@@ -55,20 +43,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 To track css linter errors you can run the following command at the root of your project if you have NPM installed on your computer.
 
 `npx stylelint "**/*.{css,scss}"`
-
-## Author
-
-👤 **Barack Mukelenga**
-
-- GitHub: [@barackm](https://github.com/barackm)
-- Twitter: [@BarackMukelenga](https://twitter.com/BarackMukelenga)
-- LinkedIn: [Baraka Mukelenga](https://www.linkedin.com/in/baraka-mukelenga/)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/barackm/personal-portfolio/issues).
 
 ## Show your support
 
