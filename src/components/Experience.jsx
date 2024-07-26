@@ -21,54 +21,38 @@ export default class Experience extends Component {
     const experiences = [
       {
         id: 1,
-        title: "FlowerStation, London - United Kingdom",
-        date:"July 2022 - Present",
+        title: "Motive, San Francisco - United States",
+        date:"November 2022 - Present",
         description:
-          "Currently working on revamp and launch projects of multiple e-commerce products of a company based in United Kingdom.",
-        // demoLink: "https://rawg-clone.netlify.app/",
-        // sourceCodeLink: "https://github.com/TheAwsomist/R-A-W-G",
-        // technologies: [
-        //   { id: 1, name: "JavaScript ES6" },
-        //   { id: 2, name: "ReactJS" },
-        //   { id: 3, name: "Redux" },
-        //   { id: 4, name: "SASS/CSS" },
-        //   { id: 5, name: "Axios" },
-        // ],
+          "Worked on revamping and launching projects of multiple e-commerce products of a company based in United Kingdom.",
         category_id: 1,
         animation: "zoom-in-up",
       },
       {
         id: 2,
-        title: "VenttOut, Islamabad - Pakistan",
-        date:"December 2020 - Present",
+        title: "FlowerStation, London - United Kingdom",
+        date:"July 2022 - Sept 2022",
         description:
-          "Co-Founder of a Student Centric Social Media based Startup that aimed to provide anonimity to students to vent and rant about their student life or their personal life and interact with one another",
-        // technologies: [
-        //   { id: 1, name: "JavaScript ES6" },
-        //   { id: 2, name: "ReactJS" },
-        //   { id: 3, name: "Redux" },
-        //   { id: 4, name: "SASS/CSS" }
-        // ],
+          "Worked on revamping and launching projects of multiple e-commerce products of a company based in United Kingdom.",
         category_id: 1,
         animation: "zoom-in-up",
       },
       {
         id: 3,
+        title: "VenttOut, Islamabad - Pakistan",
+        date:"December 2020 - December 2021",
+        description:
+          "Co-Founder of a Student Centric Social Media based Startup that aimed to provide anonimity to students to vent and rant about their student life or their personal life and interact with one another",
+        category_id: 1,
+        animation: "zoom-in-up",
+      },
+      {
+        id: 4,
         // image: project7,
         title: "DataBaze, Belgrade - Serbia",
         date:"July 2021 - August 2021",
         description:
           "Worked as an Intern at a Serbian based company, redesigning and revamping their Landing Website to improve customer acquisition and increase website's traffic",
-        demoLink: "https://github.com/barackm/Doctor-App",
-        sourceCodeLink: "https://github.com/barackm/Doctor-App",
-        technologies: [
-          { id: 1, name: "JavaScript ES6" },
-          { id: 2, name: "ReactJS" },
-          { id: 3, name: "Redux" },
-          { id: 4, name: "SASS/CSS" },
-          { id: 5, name: "Axios" },
-          { id: 6, name: "OpenSea API" }
-        ],
         category_id: 2,
         animation: "fade-down-left",
       },

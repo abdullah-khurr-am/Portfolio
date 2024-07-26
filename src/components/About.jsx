@@ -21,23 +21,14 @@ export default class About extends Component {
           </h2>
 
           <p className="about-work" data-aos="fade-up">
-            I'm Abdullah Khurram! <br /> A Computer Scientist specialized in different
-            technologies ,Building user friendly and responsive front-ends of web applications and beautiful
-            websites for companies. I love digging into hard problems, learning
-            new languages and technologies.
+            Hi! I'm Abdullah Khurram! <br /> A Computer Scientist specialized in different
+            technologies and frameworks, with a knack for pixel perfection and finding efficient implementations, I help build scalable, user friendly and responsive end-to-end solutions of web applications and eye catching
+            websites for companies. 
           </p>
           <h3 className="languages-title" data-aos="fade-up">
             Languages and <span>Frameworks</span>
           </h3>
           <div className="about-work-details-wrapper">
-            <div className="work-about-item-wrapper" data-aos="fade-up-right">
-              <div className="check-icon">
-                <IconContext.Provider value={{ className: 'check-list-icon' }}>
-                  <BsCheckCircle />
-                </IconContext.Provider>
-              </div>
-              <h3>HTML5</h3>
-            </div>
             <div className="work-about-item-wrapper" data-aos="fade-up-left">
               <div className="check-icon">
                 <IconContext.Provider value={{ className: 'check-list-icon' }}>
@@ -45,6 +36,30 @@ export default class About extends Component {
                 </IconContext.Provider>
               </div>
               <h3>Javascript</h3>
+            </div>
+            <div className="work-about-item-wrapper" data-aos="fade-up-left">
+              <div className="check-icon">
+                <IconContext.Provider value={{ className: 'check-list-icon' }}>
+                  <BsCheckCircle />
+                </IconContext.Provider>
+              </div>
+              <h3>Typescript</h3>
+            </div>
+            <div className="work-about-item-wrapper" data-aos="fade-up-right">
+              <div className="check-icon">
+                <IconContext.Provider value={{ className: 'check-list-icon' }}>
+                  <BsCheckCircle />
+                </IconContext.Provider>
+              </div>
+              <h3>Angular</h3>
+            </div>
+            <div className="work-about-item-wrapper" data-aos="fade-up-right">
+              <div className="check-icon">
+                <IconContext.Provider value={{ className: 'check-list-icon' }}>
+                  <BsCheckCircle />
+                </IconContext.Provider>
+              </div>
+              <h3>ReactJS</h3>
             </div>
             <div className="work-about-item-wrapper" data-aos="fade-up-right">
               <div className="check-icon">
@@ -62,22 +77,6 @@ export default class About extends Component {
               </div>
               <h3>NodeJS</h3>
             </div>
-            <div className="work-about-item-wrapper" data-aos="fade-up-right">
-              <div className="check-icon">
-                <IconContext.Provider value={{ className: 'check-list-icon' }}>
-                  <BsCheckCircle />
-                </IconContext.Provider>
-              </div>
-              <h3>ReactJS</h3>
-            </div>
-            <div className="work-about-item-wrapper" data-aos="fade-up-left">
-              <div className="check-icon">
-                <IconContext.Provider value={{ className: 'check-list-icon' }}>
-                  <BsCheckCircle />
-                </IconContext.Provider>
-              </div>
-              <h3>React Native</h3>
-            </div>
             <div className="work-about-item-wrapper" data-aos="fade-up-left">
               <div className="check-icon">
                 <IconContext.Provider value={{ className: 'check-list-icon' }}>
@@ -85,6 +84,14 @@ export default class About extends Component {
                 </IconContext.Provider>
               </div>
               <h3>SASS/CSS</h3>
+            </div>
+            <div className="work-about-item-wrapper" data-aos="fade-up-right">
+              <div className="check-icon">
+                <IconContext.Provider value={{ className: 'check-list-icon' }}>
+                  <BsCheckCircle />
+                </IconContext.Provider>
+              </div>
+              <h3>HTML5</h3>
             </div>
           </div>
           <div className="btn-wrapper about" data-aos="fade-up">

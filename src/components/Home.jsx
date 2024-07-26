@@ -84,7 +84,7 @@ export default class Home extends Component {
             </div>
             <div className="profession-area">
               <h3 className="hero-profession" data-aos="fade-up-right">
-                Front End Web Developer (Soon To Be A Full Stack)
+                Front End Software Engineer (Soon To Be A Full Stack)
               </h3>
             </div>
             <div className="btn-wrapper" data-aos="fade-up">
