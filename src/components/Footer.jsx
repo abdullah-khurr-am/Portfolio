@@ -112,7 +112,7 @@ export default class Footer extends Component {
             <p>
               Made With 💖 By 
               <a
-                href="https://www.linkedin.com/in/baraka-mukelenga/"
+                href="https://www.linkedin.com/in/abdullah-khurram-827849212/"
                 className="name"
               >
                 &nbsp;Abdullah Khurram
